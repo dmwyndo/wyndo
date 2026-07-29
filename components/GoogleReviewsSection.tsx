@@ -4,7 +4,7 @@ import { getGoogleReviews } from "@/lib/google-reviews";
 import { site } from "@/lib/site";
 
 export async function GoogleReviewsSection() {
-  const { rating, reviewCount, reviews } = await getGoogleReviews();
+  const { rating, reviews } = await getGoogleReviews();
   const ratingLabel = rating.toFixed(1);
 
   return (
