@@ -1,0 +1,31 @@
+import type { Metadata } from "next";
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
+import { geist } from "@/lib/fonts";
+import { site } from "@/lib/site";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: {
+    default: `${site.name} | Window Replacement & Installation`,
+    template: `%s | ${site.name}`,
+  },
+  description:
+    "Premium replacement windows without the hassle. Custom measured, expertly installed — most jobs in a single day. Free, no-pressure quote. Call (208) 522-4474.",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" className={geist.variable}>
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
+    </html>
+  );
+}
