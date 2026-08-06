@@ -484,11 +484,23 @@ body > header.scrolled .nav .phone {
   }
 
   .nav-links {
-    gap: 8px;
+    gap: 0;
+  }
+
+  .brand {
+    min-height: 44px;
+  }
+
+  .nav-social.social-links {
+    display: none;
   }
 
   .nav .phone {
-    padding: 8px 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 8px 14px;
     font-size: 11px;
     letter-spacing: 0.12em;
   }
@@ -584,12 +596,8 @@ body > header.scrolled .nav .phone {
     padding: 16px 20px;
   }
 
-  section {
-    padding: clamp(56px, 12vw, 140px) 0;
-  }
-
   .trust-head .display {
-    font-size: clamp(30px, 8.5vw, 44px);
+    font-size: clamp(28px, 7.8vw, 36px);
   }
 
   .svc-ctas {
@@ -624,6 +632,12 @@ body > header.scrolled .nav .phone {
 /* ---------- sections ---------- */
 section {
   padding: clamp(80px, 10vw, 140px) 0;
+}
+
+@media (max-width: 640px) {
+  section {
+    padding: clamp(56px, 12vw, 80px) 0;
+  }
 }
 
 .sect-head {
@@ -870,6 +884,10 @@ section {
   .trust-headline-mobile {
     display: block;
   }
+
+  .trust-headline .trust-headline-line {
+    white-space: normal;
+  }
 }
 
 .trust-head .eyebrow {
@@ -1058,6 +1076,18 @@ section {
   height: 16px;
   display: block;
   flex-shrink: 0;
+}
+
+@media (max-width: 520px) {
+  .trust-social {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .trust-social-links .social-link {
+    width: 44px;
+    height: 44px;
+  }
 }
 
 .sr-only {
@@ -1536,6 +1566,39 @@ section {
   }
 }
 
+@media (max-width: 640px) {
+  .google-reviews-carousel {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: var(--pad);
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .google-reviews-carousel::-webkit-scrollbar {
+    display: none;
+  }
+
+  .google-reviews-track-inner {
+    animation: none;
+  }
+
+  .review-card {
+    width: min(320px, calc(100vw - 56px));
+    scroll-snap-align: start;
+  }
+
+  .review-read-more {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+
+  .google-rating-badge {
+    min-height: 44px;
+  }
+}
+
 
 /* closing */
 .closing {
@@ -1705,6 +1768,20 @@ footer {
   justify-content: space-between;
   gap: 16px;
   flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+  .foot-brand,
+  .foot-meta a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+
+  .foot-social .social-link {
+    width: 44px;
+    height: 44px;
+  }
 }
 
 /* reveal */

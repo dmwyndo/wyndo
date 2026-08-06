@@ -85,7 +85,7 @@ export default function HomePage() {
           aria-label="Wyndo installer fitting a new replacement window on a home"
         />
         <p className="hero-brandline">
-          Trusted windows · 60+ years strong
+          Fresh perspective · Better windows
         </p>
         <div className="wrap hero-inner">
           <div className="hero-top">
@@ -125,22 +125,22 @@ export default function HomePage() {
         <div className="wrap intro-grid">
           <Reveal className="stat">
             <div className="num">
-              60<span>+</span>
+              New<span>.</span>
             </div>
-            <div className="label">Years of local trust</div>
+            <div className="label">A fresh approach to better windows</div>
           </Reveal>
           <Reveal className="intro-copy">
-            <h2>Need new windows without the hassle?</h2>
+            <h2>A new window company, built around a better experience.</h2>
             <p>
-              Replacing your windows should be easy, affordable, and convenient.
-              That&apos;s why we exist. Not only will we cut costs, we&apos;ll
-              reduce your energy bill, keep the process stress-free, and make
-              drafty rooms and inconsistent temperatures a thing of the past.
+              Wyndo is just getting started — and we built the business around
+              what homeowners and businesses want most: clear answers, honest
+              pricing, and a straightforward process from first quote to final
+              install.
             </p>
             <p>
               We install, replace, and repair residential and commercial windows
-              across Idaho, Utah, Texas, and Michigan — with integrity, quality,
-              and comfort that lasts.
+              across Idaho, Utah, Texas, and Michigan — pairing premium,
+              custom-fit products with attentive service as we grow.
             </p>
           </Reveal>
         </div>

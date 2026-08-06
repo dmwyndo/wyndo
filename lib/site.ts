@@ -24,7 +24,7 @@ export const site = {
   },
   trustBadges: [] as const,
   trustPoints: [
-    "60+ years of local trust",
+    "A fresh, customer-first approach",
     "Licensed, insured & bonded",
     "Manufacturer-backed warranties",
     "No-pressure consultations",
