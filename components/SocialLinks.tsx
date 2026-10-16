@@ -65,15 +65,17 @@ export function SocialLinks({ className }: SocialLinksProps) {
           <path d="M4.98 3.5a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5zM3 8.98h3.96V21H3V8.98zm7.04 0H14v1.64h.05c.55-1.04 1.9-2.14 3.91-2.14 4.18 0 4.95 2.75 4.95 6.33V21h-3.96v-5.56c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94V21H10V8.98z" />
         </svg>
       </a>
-      <a
-        className="social-link social-link--google"
-        href={site.links.google}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label={`${site.name} on Google Maps`}
-      >
-        <GoogleIcon />
-      </a>
+      {site.showGoogleSocialLink && (
+        <a
+          className="social-link social-link--google"
+          href={site.links.google}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`${site.name} on Google Maps`}
+        >
+          <GoogleIcon />
+        </a>
+      )}
     </div>
   );
 }

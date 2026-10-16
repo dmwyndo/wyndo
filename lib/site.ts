@@ -15,10 +15,11 @@ export const site = {
     "Manufacturer-backed warranties, windows custom-measured for your openings, and most installs finished in a single day.",
   googlePlaceId: "",
   googlePlaceQuery: "Wyndo, Idaho Falls, ID",
+  showGoogleSocialLink: false,
   links: {
-    facebook: "https://facebook.com/wyndo",
-    instagram: "https://instagram.com/wyndo",
-    linkedin: "https://linkedin.com/company/wyndo",
+    facebook: "https://www.facebook.com/people/Wyndo/61591935775639/",
+    instagram: "https://www.instagram.com/wyndo.co/",
+    linkedin: "https://www.linkedin.com/company/wyndo-co/",
     google:
       "https://www.google.com/maps/search/?api=1&query=Wyndo+Idaho+Falls+ID",
   },
