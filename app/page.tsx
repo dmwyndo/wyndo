@@ -89,7 +89,6 @@ export default function HomePage() {
         </p>
         <div className="wrap hero-inner">
           <div className="hero-top">
-            <p className="eyebrow">{site.areas}</p>
             <h1 className="display">
               <span className="hero-title-line">Windows</span>{" "}
               <br className="hero-title-break" aria-hidden />
@@ -139,8 +138,8 @@ export default function HomePage() {
             </p>
             <p>
               We install, replace, and repair residential and commercial windows
-              across Idaho, Utah, Texas, and Michigan — pairing premium,
-              custom-fit products with attentive service as we grow.
+              — pairing premium, custom-fit products with attentive service as
+              we grow.
             </p>
           </Reveal>
         </div>

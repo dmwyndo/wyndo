@@ -19,9 +19,6 @@ export function Footer() {
             <SocialLinks className="foot-social" />
           </div>
           <div className="foot-meta">
-            {site.serviceAreas.map((area) => (
-              <div key={area}>{area}</div>
-            ))}
             <a href={site.phoneHref}>{site.phone}</a>
           </div>
           <div className="foot-meta">

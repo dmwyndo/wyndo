@@ -32,7 +32,6 @@ export default function CommercialPage() {
           />
         </div>
         <div className="wrap page-hero-inner">
-          <p className="eyebrow page-hero-eyebrow">{site.areas}</p>
           <h1 className="display page-hero-title">Commercial Work</h1>
         </div>
       </section>
@@ -46,10 +45,9 @@ export default function CommercialPage() {
               large warehouses.
             </h2>
             <p>
-              With teams across Idaho, Utah, Texas, and Michigan, Wyndo handles
-              every kind of commercial window need for businesses and property
-              managers — with the same straightforward pricing and fast, tidy
-              installs we bring to every home.
+              Wyndo handles every kind of commercial window need for businesses
+              and property managers — with the same straightforward pricing and
+              fast, tidy installs we bring to every home.
             </p>
           </Reveal>
 
