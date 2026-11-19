@@ -10,8 +10,7 @@ export const metadata: Metadata = {
     default: `${site.name} | Window Replacement & Installation`,
     template: `%s | ${site.name}`,
   },
-  description:
-    "Premium replacement windows without the hassle. Custom measured, expertly installed — most jobs in a single day. Free, no-pressure quote. Call (208) 522-4474.",
+  description: `Premium replacement windows without the hassle. Custom measured, expertly installed — most jobs in a single day. Free, no-pressure quote. Call ${site.phone}.`,
 };
 
 export default function RootLayout({

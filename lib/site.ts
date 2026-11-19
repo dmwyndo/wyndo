@@ -1,7 +1,7 @@
 export const site = {
   name: "Wyndo",
-  phone: "(208) 522-4474",
-  phoneHref: "tel:2085224474",
+  phone: "(208) 676-5898",
+  phoneHref: "tel:2086765898",
   email: "office@wyndo.com",
   tagline: "Windows Reimagined, Comfort Restored.",
   trustCopy:
