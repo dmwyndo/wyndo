@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import styles from "./privacy-policy.module.css";
 
 export const metadata: Metadata = {
@@ -63,7 +64,8 @@ export default function PrivacyPolicyPage() {
           </ul>
           <p>
             You can opt out of receiving SMS messages at any time by replying STOP
-            to any message we send you. You can review our Terms for additional
+            to any message we send you. You can review our{" "}
+            <Link href="/terms-and-conditions">Terms</Link> for additional
             information about the opt-out process.
           </p>
         </section>

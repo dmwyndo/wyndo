@@ -29,7 +29,10 @@ export function Footer() {
         </div>
         <div className="foot-legal">
           <span>© {new Date().getFullYear()} {site.name}. All rights reserved.</span>
-          <Link href="/privacy-policy">Privacy Policy</Link>
+          <nav className="foot-legal-links" aria-label="Legal">
+            <Link href="/privacy-policy">Privacy Policy</Link>
+            <Link href="/terms-and-conditions">Terms and Conditions</Link>
+          </nav>
         </div>
       </div>
     </footer>
