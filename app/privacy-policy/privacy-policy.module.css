@@ -1,0 +1,64 @@
+.hero {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 144px 0 56px;
+}
+
+.hero h1 {
+  max-width: 20ch;
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+}
+
+.hero p {
+  margin-top: 24px;
+}
+
+.hero a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 12px;
+  font-size: 1rem;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.policy {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 56px var(--pad) 88px;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+
+.policy section {
+  margin-top: 36px;
+  padding: 0;
+}
+
+.policy h2 {
+  margin-bottom: 12px;
+  font-size: clamp(1.375rem, 3vw, 1.625rem);
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+
+.policy p + p,
+.policy ul + p {
+  margin-top: 20px;
+}
+
+.policy ul {
+  margin-top: 12px;
+  padding-left: 24px;
+}
+
+.policy li + li {
+  margin-top: 6px;
+}
+
+.policy a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

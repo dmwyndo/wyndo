@@ -1770,6 +1770,20 @@ footer {
   flex-wrap: wrap;
 }
 
+.foot-legal a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-size: 14px;
+  color: rgba(251, 250, 248, 0.8);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.foot-legal a:hover {
+  color: var(--paper);
+}
+
 @media (max-width: 640px) {
   .foot-brand,
   .foot-meta a {
